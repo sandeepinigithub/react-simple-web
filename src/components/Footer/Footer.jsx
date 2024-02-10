@@ -95,22 +95,22 @@ export default function Footer() {
                 <ul className="list-unstyled list-inline">
                   <li className="list-inline-item">
                     <a className="btn-floating btn-sm rgba-white-slight mx-1">
-                      <i class="bi bi-facebook"></i>
+                      <i className="bi bi-facebook"></i>
                     </a>
                   </li>
                   <li className="list-inline-item">
                     <a className="btn-floating btn-sm rgba-white-slight mx-1">
-                      <i class="bi bi-twitter-x"></i>
+                      <i className="bi bi-twitter-x"></i>
                     </a>
                   </li>
                   <li className="list-inline-item">
                     <a className="btn-floating btn-sm rgba-white-slight mx-1">
-                      <i class="bi bi-google"></i>
+                      <i className="bi bi-google"></i>
                     </a>
                   </li>
                   <li className="list-inline-item">
                     <a className="btn-floating btn-sm rgba-white-slight mx-1">
-                      <i class="bi bi-linkedin"></i>
+                      <i className="bi bi-linkedin"></i>
                     </a>
                   </li>
                 </ul>
