@@ -131,7 +131,7 @@ export default function SwiperComponent() {
                     alt=""
                   />
                 </div>
-                <div className="col-12 col-md-6 col-lg-6 col-xl-6">
+                <div className="col-12 col-md-6 col-lg-6 col-xl-6" style={{'textAlign':'left'}}>
                   <span className="d-block mb-3">
                     <img
                       className="img-fluid carousel-logo"
