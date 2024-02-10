@@ -18,11 +18,6 @@ import logo4 from "../../assets/images/web-images/logo4.svg";
 // import logo5 from "../../assets/images/web-images/logo5.svg";
 import logo6 from "../../assets/images/web-images/logo6.svg";
 
-// import astronaut from "../../assets/images/web-images/astronaut.png";
-
-// import mobileFlat from "../../assets/images/web-images/mobile-flat.png";
-
-// import stars from "../../assets/images/web-images/stars.png";
 
 import React from "react";
 import "./Swiper.style.scss";
@@ -124,9 +119,9 @@ export default function SwiperComponent() {
       navigation={true}
     >
       {carouselData.map((carousel, index) => (
-        <SwiperSlide>
+        <SwiperSlide key={index}>
           <div>
-            <div key={index} className="container">
+            <div  className="container">
               <div className="row mt-3">
                 <div className="col-12 col-md-6 col-lg-6 col-xl-6">
                   <img
